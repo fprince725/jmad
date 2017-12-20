@@ -12,12 +12,12 @@ class StudentTestCase(LiveServerTestCase):
 	def test_student_find_solos(self):
 		home_page = self.browser.get(self.live_server_url + '/')
 		# home_page = self.browser.get('http://www.facebook.com')
-
-		brand_element = self.browser.find_element_by_css_selector('.navbar_brand')
+'''
+		brand_element = self.browser.find_element_by_css_selector('.navbar-brand')
 		self.assertEqual('JMAD', brand_element.text)
 		self.fail('Incomplete Test')
 
-		'''
+	
 		test finding solos
 		'''
 
